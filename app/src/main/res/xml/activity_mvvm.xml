@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input untuk CC -->
+    <EditText
+        android:id="@+id/ccInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan CC Motor"
+        android:inputType="number" />
+
+    <!-- Tombol untuk memeriksa SIM -->
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Periksa SIM" />
+
+    <!-- Teks untuk menampilkan hasil SIM -->
+    <TextView
+        android:id="@+id/simTypeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis SIM akan ditampilkan di sini"
+        android:textSize="18sp"
+        android:gravity="center" />
+</LinearLayout>
